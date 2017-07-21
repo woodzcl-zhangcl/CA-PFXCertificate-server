@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+Hi, guys!
+I am a developer in c/c++.
+Now, I support a project about a server issuing pfx certificate with open source, depending on openssl.
+As I am not familiar with cmake or perl, so I just only contribute raw source.
+Please, someone can help write a general method to compile this project. I can support makefile to do that, but I don't want to do.
 
-You can use the [editor on GitHub](https://github.com/woodzcl-zhangcl/CA-PFXCertificate-server/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/woodzcl-zhangcl/CA-PFXCertificate-server/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+function in this project:
+1. server generate pkcs10.
+2. putting sign x509 certificate, server generate sign pkcs12 certificate, then transfering it to client
+3. putting encrypt x509 certificate, server generate encrypt pkcs12 certificate, then transfering it to client
